@@ -1,0 +1,70 @@
+{
+  "searched_layout": [
+    {
+      "hub_id": "depot_west",
+      "zone_id": "z00",
+      "kind": "central",
+      "spaces": 6,
+      "power_kw": 100,
+      "supports_routine": true,
+      "site_power_kw": null,
+      "fixed_cost_per_day": 400,
+      "space_cost_per_day": 20
+    },
+    {
+      "hub_id": "depot_south",
+      "zone_id": "z30",
+      "kind": "central",
+      "spaces": 6,
+      "power_kw": 100,
+      "supports_routine": true,
+      "site_power_kw": null,
+      "fixed_cost_per_day": 400,
+      "space_cost_per_day": 20
+    },
+    {
+      "hub_id": "hub_center",
+      "zone_id": "z11",
+      "kind": "satellite",
+      "spaces": 3,
+      "power_kw": 100,
+      "supports_routine": true,
+      "site_power_kw": null,
+      "fixed_cost_per_day": 150,
+      "space_cost_per_day": 20
+    },
+    {
+      "hub_id": "hub_inner",
+      "zone_id": "z21",
+      "kind": "satellite",
+      "spaces": 3,
+      "power_kw": 100,
+      "supports_routine": true,
+      "site_power_kw": null,
+      "fixed_cost_per_day": 150,
+      "space_cost_per_day": 20
+    },
+    {
+      "hub_id": "hub_core",
+      "zone_id": "z31",
+      "kind": "satellite",
+      "spaces": 3,
+      "power_kw": 100,
+      "supports_routine": true,
+      "site_power_kw": null,
+      "fixed_cost_per_day": 150,
+      "space_cost_per_day": 20
+    },
+    {
+      "hub_id": "hub_waterfront",
+      "zone_id": "z32",
+      "kind": "satellite",
+      "spaces": 3,
+      "power_kw": 100,
+      "supports_routine": true,
+      "site_power_kw": null,
+      "fixed_cost_per_day": 150,
+      "space_cost_per_day": 20
+    }
+  ]
+}

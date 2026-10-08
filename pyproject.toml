@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aseon-simulator"
+version = "0.1.0"
+description = "A first-order time-stepped simulator for distributed autonomous-fleet servicing"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+plots = ["matplotlib>=3.6"]
+
+[project.scripts]
+aseon-sim = "aseon_sim.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["aseon_sim*"]

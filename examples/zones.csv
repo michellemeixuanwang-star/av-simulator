@@ -1,0 +1,13 @@
+zone_id,name,x_miles,y_miles,demand_weight
+z00,Outer West (fictional),0,0,0.6
+z10,West Residential (fictional),2,0,0.9
+z20,South Central (fictional),4,0,1.3
+z30,Industrial Depot Area (fictional),6,0,0.7
+z01,Northwest Residential (fictional),0,2,0.8
+z11,Central Residential (fictional),2,2,1.4
+z21,Inner Mixed Use (fictional),4,2,2.0
+z31,Downtown Core (fictional),6,2,3.0
+z02,Outer North (fictional),0,4,0.5
+z12,North Mixed Use (fictional),2,4,1.0
+z22,Inner North (fictional),4,4,1.8
+z32,Waterfront Core (fictional),6,4,2.3
