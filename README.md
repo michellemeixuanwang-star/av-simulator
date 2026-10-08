@@ -139,16 +139,3 @@ Important definitions:
   not make unequal fleet states equivalent or account for the time to recharge.
 * Revenue minus modeled cost excludes costs not specified in this prototype.
   It is not observed revenue or an accounting profit estimate.
-
-## 中文使用说明
-
-先运行 `python -m aseon_sim compare`，查看 `comparison.csv` 和每个布局的
-`summary.json`。第一轮主要调整 `config.json` 中的空闲窗口、操作耗时、有效
-充电速度、服务频率和本地服务比例，再调整 `layouts.json` 的位置和大小。
-
-当前默认采用“返回原待命区域”的保守访问规则。将 `departure_policy` 改为
-`stay_at_hub` 后，车辆留在 hub，下一次接客的距离会随之改变。将
-`charging_policy` 改为 `threshold` 可以关闭普通机会充电；必要服务仍然保留。
-
-请同时查看完成行程数、每单空驶、期初/期末电量、未完成服务和各 hub 的容量
-拒绝次数。这些是初步情景结果，后续可用 Aseon 的判断和真实数据逐步校准。
